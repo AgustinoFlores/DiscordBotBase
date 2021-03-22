@@ -16,6 +16,6 @@ module.exports = function(client){
             console.log("No welcome channel");
             return;
         } 
-        channel.send(`Welcome to the server ${member.user.username}`);
+        channel.send(`Welcome to the server ${member.user.username}! Enjoy your stay!`);
     });
 };
